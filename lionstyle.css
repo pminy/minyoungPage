@@ -51,6 +51,7 @@ header div h2{
     left: -12%;
 }
 
+
 #title{
     position: relative;
     top: 150px;
@@ -73,8 +74,7 @@ header div h2{
     text-align:center;
     background:rgba(255,255,255,0.5);
     font-family: 'KoPub Batang', serif;
-}
-
+} 
 section{
     text-align:center;
     margin-top: 50px;
