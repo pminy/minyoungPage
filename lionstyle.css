@@ -1,0 +1,101 @@
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
+@import url(http://fonts.googleapis.com/earlyaccess/jejuhallasan.css);
+@import url(http://fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
+@import url(http://fonts.googleapis.com/earlyaccess/kopubbatang.css);
+
+
+body{
+    width:100%;
+    padding: 0px;
+    margin:0px;
+}
+
+nav{
+    height: 80px;
+    display: inline;
+}
+
+nav h1{
+    padding-left: 100px;
+    float: left;
+    font-family: 'jejuhallasan';    
+}
+
+nav a{
+    text-decoration: none;
+}
+
+nav ul{
+    width: 100%;
+    display: inline;
+}
+
+nav ul li{
+    float: right;
+    display:inline;
+    padding-right:100px;
+    padding-top: 25px;
+}
+
+header{
+    width: 1885px;
+    height: 600px;
+    background-image: url("http://www.asrgo.com/files/attach/images/8131/490/060/q1.jpg");
+    background-repeat: no-repeat;
+    background-size:1885px 600px;
+    text-align: center;
+}
+header div h2{
+    position: relative;
+    left: -12%;
+}
+
+#title{
+    position: relative;
+    top: 150px;
+    left: 25%;
+    height: 100px;
+    width: 1000px;
+    border-radius:5px;
+    text-align:center;
+    background:rgba(255,255,255,0.5);
+}
+
+#content{
+    position: relative;
+    top: 150px;
+    left: 25%;
+    height: 200px;
+    width: 1000px;
+    
+    border-radius:5px;
+    text-align:center;
+    background:rgba(255,255,255,0.5);
+    font-family: 'KoPub Batang', serif;
+}
+
+section{
+    text-align:center;
+    margin-top: 50px;
+}
+
+section article{
+    display: inline-block;
+    float: inherit;
+    margin: auto;
+    font-family: 'hanna', sans-serif;
+}
+
+article img{
+    height:500px;
+    width:500px;
+    border-radius: 20px;
+}
+article p{
+    font-size:15px;    
+}
+footer p {
+    text-align: center;
+    font-size:15px;
+}
